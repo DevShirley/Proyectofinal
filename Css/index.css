@@ -1,0 +1,262 @@
+html {
+  scroll-behavior: smooth; /* Habilita el desplazamiento suave */
+}
+
+*{
+    font-family:italic;
+  }
+  /*CSS Menu*/
+  body{
+    margin:0;
+    background: gray;
+  }
+  img {
+    height:100px;
+  }
+  .menu {
+    background: rgb(255, 255, 255, 0);
+    height: 60px;
+    display:flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    z-index: 2;
+  }
+  .menu a{
+    font-family: bold;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    flex: 1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  a.logoimg:hover{
+    background: transparent !important;
+  }
+  .menu a:hover{
+    background: #e95656;
+    color: black;
+  }
+  
+
+
+  /*Encabezado*/
+  .main-section{
+    height: 630px;
+    width: 100%;
+    background-image: url('../IMG/mesa-decorada-boda-velas_853645-91376.avif');
+    position: relative;
+    background-size:cover;
+  }
+  .overlay {
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+  }
+  .logos {
+    margin-left:15px;
+  }
+  .let-white{
+    color:white;
+    margin-bottom:50px;
+  }
+  .espace {
+      margin-left:25%;
+  }
+   /*Acerca de mi*/
+  .col-md-1 {
+      padding:1rem;
+      margin:1rem;
+      }
+  .col-md-2{
+      padding:1rem;
+      margin:1rem;
+    }
+  .foto{
+      display:inline block;
+      height:300px;
+      padding:5px;
+    }
+  /*CSS Tarjetas*/
+  .d-flex-md{
+      display:flex;
+    }
+  .col-md-3 {
+      width:25%;
+      padding:1rem;
+    }
+  /*Componentes*/
+  .card {
+    background:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    padding:1rem;
+    height:100%;
+    transform: scale(1);
+    transition: all 1s;
+  }
+  .card:hover{
+    /*efecto tarjeta aumentada*/
+    transform: scale(1.1);
+    background: #d17474;
+    color: black;
+    transition: all 0.7s;
+  } 
+  /*Clases genericas*/
+  .hg-light {
+    background: #dc2828;
+  }
+  section {
+    padding:5%
+  }
+  .justify-content-center {
+    justify-content: center;
+  }
+  .text-center {
+    text-align: center;
+  }
+  /*Titulos*/
+  .title-2 {
+    display:block;
+    margin-bottom:15px;
+    font-size:4rem;
+    color:#ffffff;
+    font-family: bold italic;
+  }
+  .title-3 {
+    font-size:2rem;
+    color:rgb(255, 255, 255);
+  }
+  .title-4 {
+    font-size:1.3rem;
+  }
+  /*Pie de pagina*/
+  i {
+      height:10px;
+    color:rgb(0, 0, 0);
+    } 
+  article {
+      position:absolute;
+    margin-top:0px;
+    margin-right:200px;
+    }
+  .main-a {
+      background: white;
+    color:black;
+    }
+  .ver-ali {
+    display:flex;
+    justify-content:center;
+    margin-top:240px;
+    font-family: bold italic;
+  }
+  a.arreglo {
+    color: black;
+    text-decoration: auto;
+}
+footer {
+  width: 100%;
+  padding: 10px 0px;
+  margin: 0px;
+  background-size: cover;
+  position: relative;
+  bottom: 0%;
+  height: 400px;
+}
+
+.container_footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0px;
+  margin-top: 100px;
+}
+
+.box_footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 25%;
+  font-size: 15px;
+}
+
+.padredelaimagen {
+  display: block;
+  align-content: center;
+}
+
+.box_footer .terms {
+  /* Agrega tus estilos aquí */
+  max-width: 360px;
+  margin-top:20px ;
+  color: #000000;
+  font-size: 12px;
+  text-align: center;
+}
+
+.logo {
+  width: 60%;
+  margin-inline: auto;
+}
+
+.box_footer .logo img {
+  width: 100%;
+  max-width: 100%;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.box_footer h2 {
+  margin-bottom: 30px;
+  color: #343434;
+  font-weight: 600;
+}
+
+.box_footer a {
+  margin-top: 10px;
+  color: #000000;
+  font-weight: 600;
+}
+
+.box_copyright {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  padding: 0px 40px;
+}
+
+.box_copyright p {
+  margin-top: 20px;
+  color: #000000;
+}
+
+.box_copyright hr {
+  border: none;
+  height: 1px;
+  background-color: #000000;
+}
+
+.box_footer a .fab {
+  font-size: 20px;
+}
+
+.amor
+{
+  text-decoration: none;
+}
+
+.rosa {
+margin-top: 0%;
+}
+
+.somos{
+  flex: 0 0 auto;
+  width: 20.333333%;
+}
+
